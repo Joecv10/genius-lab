@@ -1,0 +1,58 @@
+[ {
+  "baseItem" : {
+    "id" : "_74EVAMv7EfG2aq3a344PrA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PPRhoMv5EfG2aq3a344PrA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PPRhoMv5EfG2aq3a344PrA - product_category",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_iDFGQMv2EfG2aq3a344PrA",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_PPRhoMv5EfG2aq3a344PrA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_PPRhoMv5EfG2aq3a344PrA - product_category",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]
