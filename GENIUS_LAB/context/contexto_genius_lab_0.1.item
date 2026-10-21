@@ -6,4 +6,6 @@
   <contextParameter xmi:id="_o01e9MybEfGFyeLjyxVKuQ" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
   <contextParameter xmi:id="_o01e9cybEfGFyeLjyxVKuQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
   <contextParameter xmi:id="_o01e9sybEfGFyeLjyxVKuQ" comment="" name="LOAD_SOURCE_TAG" prompt="LOAD_SOURCE_TAG?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab05_olist_orders_enriched"/>
+  <contextParameter xmi:id="_DIqTQMz4EfGS15T2tLMv4g" comment="" name="FILE_OLIST_CUSTOMERS" prompt="FILE_OLIST_CUSTOMERS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1/olist_customers_dataset.csv"/>
+  <contextParameter xmi:id="_EfrUEMz5EfGS15T2tLMv4g" comment="" name="FILE_OLIST_ORDERS" prompt="FILE_OLIST_ORDERS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1/olist_orders_dataset.csv"/>
 </talendfile:ContextType>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_qMlv4Mz6EfGS15T2tLMv4g" name="customers_table" dataPackage="_qMlv4cz6EfGS15T2tLMv4g" Server="Localhost 127.0.0.1" FilePath="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1/olist_customers_dataset.csv" Format="MAC" Encoding="UTF-8" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\r&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" EscapeType="CSV" TextEnclosure="&quot;\&quot;&quot;" CsvOption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_qMlv4cz6EfGS15T2tLMv4g" name="default" dataManager="_qMlv4Mz6EfGS15T2tLMv4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_qMlv4sz6EfGS15T2tLMv4g" id="_eL-TIMz5EfGS15T2tLMv4g" comment="Olist customers.csv. PK: customer_id. Zip as String to keep leading zeros." label="olist_customers">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qMlv48z6EfGS15T2tLMv4g" label="customer_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qMlv5Mz6EfGS15T2tLMv4g" label="customer_unique_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qMlv5cz6EfGS15T2tLMv4g" label="customer_zip_code_prefix" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qMlv5sz6EfGS15T2tLMv4g" label="customer_city" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qMlv58z6EfGS15T2tLMv4g" label="customer_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
