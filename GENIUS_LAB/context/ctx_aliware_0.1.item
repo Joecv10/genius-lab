@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_o01e8MybEfGFyeLjyxVKuQ" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_o01e8cybEfGFyeLjyxVKuQ" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSADEV"/>
+    <contextParameter xmi:id="_o01e8sybEfGFyeLjyxVKuQ" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_o01e88ybEfGFyeLjyxVKuQ" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:m19ow6p7MvzFWjHYquOz3WRG5L+zFNX8dJlzY+bdm6ZUf6V5ON5PSvbDytE="/>
+    <contextParameter xmi:id="_o01e9MybEfGFyeLjyxVKuQ" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_o01e9cybEfGFyeLjyxVKuQ" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_J88m4M1uEfGVK8LlTtpyKw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter xmi:id="_J88m4c1uEfGVK8LlTtpyKw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1/"/>
+    <contextParameter xmi:id="_J88m4s1uEfGVK8LlTtpyKw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Lz0B4M1uEfGVK8LlTtpyKw" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_Lz0B4c1uEfGVK8LlTtpyKw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSAQA"/>
+    <contextParameter xmi:id="_Lz0B4s1uEfGVK8LlTtpyKw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qa_genius"/>
+    <contextParameter xmi:id="_Lz0B481uEfGVK8LlTtpyKw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:vSvmrQk6lTrTWtRgAiXuA8kCNm2YYeCDuPhPyxIVGw=="/>
+    <contextParameter xmi:id="_Lz0B5M1uEfGVK8LlTtpyKw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_Lz0B5c1uEfGVK8LlTtpyKw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="aliware-qa.singlestore.aliware.local"/>
+    <contextParameter xmi:id="_Lz0B5s1uEfGVK8LlTtpyKw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qa"/>
+    <contextParameter xmi:id="_Lz0B581uEfGVK8LlTtpyKw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/olist/qa/"/>
+    <contextParameter xmi:id="_Lz0B6M1uEfGVK8LlTtpyKw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_Lz0B6c1uEfGVK8LlTtpyKw" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_Lz0B6s1uEfGVK8LlTtpyKw" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DSAPROD"/>
+    <contextParameter xmi:id="_Lz0B681uEfGVK8LlTtpyKw" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod_genius"/>
+    <contextParameter xmi:id="_Lz0B7M1uEfGVK8LlTtpyKw" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter xmi:id="_Lz0B7c1uEfGVK8LlTtpyKw" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_Lz0B7s1uEfGVK8LlTtpyKw" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="aliware-prod.singlestore.aliware.local"/>
+    <contextParameter xmi:id="_Lz0B781uEfGVK8LlTtpyKw" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod"/>
+    <contextParameter xmi:id="_Lz0B8M1uEfGVK8LlTtpyKw" comment="" name="BASE_FILE_PATH" prompt="BASE_FILE_PATH?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/olist/prod/"/>
+    <contextParameter xmi:id="_Lz0B8c1uEfGVK8LlTtpyKw" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="lab06_olist_pipeline"/>
+  </talendfile:ContextType>
+</xmi:XMI>

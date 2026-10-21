@@ -1,0 +1,88 @@
+{
+  "itemId" : "_8yap0M1uEfGVK8LlTtpyKw",
+  "contextList" : [ {
+    "contextName" : "QA",
+    "repoId" : "_s65CYM1sEfGVK8LlTtpyKw",
+    "parameterList" : [ {
+      "id" : "_Lz0B4c1uEfGVK8LlTtpyKw",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_Lz0B4s1uEfGVK8LlTtpyKw",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_Lz0B481uEfGVK8LlTtpyKw",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_Lz0B5M1uEfGVK8LlTtpyKw",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_Lz0B5c1uEfGVK8LlTtpyKw",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_Lz0B5s1uEfGVK8LlTtpyKw",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_Lz0B581uEfGVK8LlTtpyKw",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_Lz0B6M1uEfGVK8LlTtpyKw",
+      "name" : "PIPELINE_NAME"
+    } ]
+  }, {
+    "contextName" : "PROD",
+    "repoId" : "_s65CYM1sEfGVK8LlTtpyKw",
+    "parameterList" : [ {
+      "id" : "_Lz0B6s1uEfGVK8LlTtpyKw",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_Lz0B681uEfGVK8LlTtpyKw",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_Lz0B7M1uEfGVK8LlTtpyKw",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_Lz0B7c1uEfGVK8LlTtpyKw",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_Lz0B7s1uEfGVK8LlTtpyKw",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_Lz0B781uEfGVK8LlTtpyKw",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_Lz0B8M1uEfGVK8LlTtpyKw",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_Lz0B8c1uEfGVK8LlTtpyKw",
+      "name" : "PIPELINE_NAME"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_s65CYM1sEfGVK8LlTtpyKw",
+    "parameterList" : [ {
+      "id" : "_o01e8cybEfGFyeLjyxVKuQ",
+      "name" : "DB_NAME"
+    }, {
+      "id" : "_o01e8sybEfGFyeLjyxVKuQ",
+      "name" : "DB_USER"
+    }, {
+      "id" : "_o01e88ybEfGFyeLjyxVKuQ",
+      "name" : "DB_PASSWORD"
+    }, {
+      "id" : "_o01e9MybEfGFyeLjyxVKuQ",
+      "name" : "DB_PORT"
+    }, {
+      "id" : "_o01e9cybEfGFyeLjyxVKuQ",
+      "name" : "DB_HOST"
+    }, {
+      "id" : "_J88m4M1uEfGVK8LlTtpyKw",
+      "name" : "ENV_NAME"
+    }, {
+      "id" : "_J88m4c1uEfGVK8LlTtpyKw",
+      "name" : "BASE_FILE_PATH"
+    }, {
+      "id" : "_J88m4s1uEfGVK8LlTtpyKw",
+      "name" : "PIPELINE_NAME"
+    } ]
+  } ]
+}
