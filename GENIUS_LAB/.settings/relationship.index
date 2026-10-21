@@ -38,6 +38,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_8yap0M1uEfGVK8LlTtpyKw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_s65CYM1sEfGVK8LlTtpyKw",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_qMYUgMz6EfGS15T2tLMv4g - olist_customers",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_Ku63cMyfEfGFyeLjyxVKuQ",
     "version" : "0.1",
     "type" : "job"
