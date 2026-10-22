@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_6STKoMy3EfGST5Ian5T7BA" name="Customer" dataPackage="_6STKocy3EfGST5Ian5T7BA" Server="Localhost 127.0.0.1" FilePath="C:/Tmp/FUENTES/olist_customers_dataset.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_6STKocy3EfGST5Ian5T7BA" name="default" dataManager="_6STKoMy3EfGST5Ian5T7BA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_6STKosy3EfGST5Ian5T7BA" id="_ahJtMMy3EfGST5Ian5T7BA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6STKo8y3EfGST5Ian5T7BA" label="customer_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6STKpMy3EfGST5Ian5T7BA" label="customer_unique_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6STKpcy3EfGST5Ian5T7BA" label="customer_zip_code_prefix" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6STKpsy3EfGST5Ian5T7BA" label="customer_city" length="60" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_6STKp8y3EfGST5Ian5T7BA" label="customer_state" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

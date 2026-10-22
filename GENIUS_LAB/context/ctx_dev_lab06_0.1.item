@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_kMEkEMybEfGST5Ian5T7BA" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_kMEkEcybEfGST5Ian5T7BA" comment="" name="FILE_OLIST" prompt="FILE_OLIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Tmp/FUENTES/"/>
+    <contextParameter xmi:id="_kMEkEsybEfGST5Ian5T7BA" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_kMEkE8ybEfGST5Ian5T7BA" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_kMEkFMybEfGST5Ian5T7BA" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_kMEkFcybEfGST5Ian5T7BA" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_kMEkFsybEfGST5Ian5T7BA" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:P9d8e1S94Isus2XlFrxp1J6ecQNRkZEfYgdLQ9JcRn9IzJXVkJwm9eek2AM="/>
+    <contextParameter xmi:id="_kMEkF8ybEfGST5Ian5T7BA" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_4y-yEM1pEfG-9pEp4ObE7w" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5O__sM1pEfG-9pEp4ObE7w" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_5O__sc1pEfG-9pEp4ObE7w" comment="" name="FILE_OLIST" prompt="FILE_OLIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Tmp/FUENTES/"/>
+    <contextParameter xmi:id="_5O__ss1pEfG-9pEp4ObE7w" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_5O__s81pEfG-9pEp4ObE7w" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_5O__tM1pEfG-9pEp4ObE7w" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_5O__tc1pEfG-9pEp4ObE7w" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_5O__ts1pEfG-9pEp4ObE7w" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:P9d8e1S94Isus2XlFrxp1J6ecQNRkZEfYgdLQ9JcRn9IzJXVkJwm9eek2AM="/>
+    <contextParameter xmi:id="_5O__t81pEfG-9pEp4ObE7w" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_5O__uM1pEfG-9pEp4ObE7w" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_5O__uc1pEfG-9pEp4ObE7w" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_5O__us1pEfG-9pEp4ObE7w" comment="" name="FILE_OLIST" prompt="FILE_OLIST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Tmp/FUENTES/"/>
+    <contextParameter xmi:id="_5O__u81pEfG-9pEp4ObE7w" comment="" name="DB_HOST" prompt="DB_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_5O__vM1pEfG-9pEp4ObE7w" comment="" name="DB_PORT" prompt="DB_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_5O__vc1pEfG-9pEp4ObE7w" comment="" name="DB_NAME" prompt="DB_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_5O__vs1pEfG-9pEp4ObE7w" comment="" name="DB_USER" prompt="DB_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_5O__v81pEfG-9pEp4ObE7w" comment="" name="DB_PASSWORD" prompt="DB_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:P9d8e1S94Isus2XlFrxp1J6ecQNRkZEfYgdLQ9JcRn9IzJXVkJwm9eek2AM="/>
+    <contextParameter xmi:id="_5O__wM1pEfG-9pEp4ObE7w" comment="" name="PIPELINE_NAME" prompt="PIPELINE_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=" lab06_olist_pipeline"/>
+    <contextParameter xmi:id="_5O__wc1pEfG-9pEp4ObE7w" comment="" name="ENV_NAME" prompt="ENV_NAME?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </talendfile:ContextType>
+</xmi:XMI>

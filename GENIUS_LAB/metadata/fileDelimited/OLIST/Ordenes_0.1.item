@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_q9P1kMyeEfGST5Ian5T7BA" name="Ordenes" dataPackage="_q9P1kcyeEfGST5Ian5T7BA" Server="Localhost 127.0.0.1" FilePath="C:/Tmp/FUENTES/olist_orders_dataset.csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;,&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Comma"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_q9P1kcyeEfGST5Ian5T7BA" name="default" dataManager="_q9P1kMyeEfGST5Ian5T7BA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_q9P1ksyeEfGST5Ian5T7BA" id="_Q2dS4MyeEfGST5Ian5T7BA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1k8yeEfGST5Ian5T7BA" label="order_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1lMyeEfGST5Ian5T7BA" label="customer_id" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1lcyeEfGST5Ian5T7BA" label="order_status" length="40" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1lsyeEfGST5Ian5T7BA" label="order_purchase_timestamp" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1l8yeEfGST5Ian5T7BA" label="order_approved_at" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1mMyeEfGST5Ian5T7BA" label="order_delivered_carrier_date" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1mcyeEfGST5Ian5T7BA" label="order_delivered_customer_date" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_q9P1msyeEfGST5Ian5T7BA" label="order_estimated_delivery_date" length="-1" talendType="id_Date" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
