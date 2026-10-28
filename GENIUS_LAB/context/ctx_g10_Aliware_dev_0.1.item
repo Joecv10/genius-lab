@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_7_o7YM8WEfGby7iOo3WS7A" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_7_o7Yc8WEfGby7iOo3WS7A" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_7_o7Ys8WEfGby7iOo3WS7A" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_7_o7Y88WEfGby7iOo3WS7A" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_7_o7ZM8WEfGby7iOo3WS7A" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_7_o7Zc8WEfGby7iOo3WS7A" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FcaaRG7qUrYpB8+CftcgYyii4rA2KgKzxgutLT7QsciAHjMDzMIMfBUrsA0="/>
+    <contextParameter xmi:id="_7_o7Zs8WEfGby7iOo3WS7A" comment="" name="csv_path" prompt="csv_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talent/Olist/"/>
+    <contextParameter xmi:id="_U-2UsM9IEfGFNOxz3mhvwA" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter xmi:id="_8RR70M9UEfGFNOxz3mhvwA" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="465"/>
+    <contextParameter xmi:id="_8RR70c9UEfGFNOxz3mhvwA" comment="" name="SMTP_USER" prompt="SMTP_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR70s9UEfGFNOxz3mhvwA" comment="" name="SMTP_PASSWORD" prompt="SMTP_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:HKnH5aMgXGZPKS113SDEtvuwneTll6RfmHZXbRjebMzavMsJZgQFWyUEQtw="/>
+    <contextParameter xmi:id="_8RR7089UEfGFNOxz3mhvwA" comment="" name="MAIL_TO" prompt="MAIL_TO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR71M9UEfGFNOxz3mhvwA" comment="" name="LAST_LOAD_TS" prompt="LAST_LOAD_TS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1900-01-01 00:00:00"/>
+    <contextParameter xmi:id="_8RR71c9UEfGFNOxz3mhvwA" comment="" name="RUN_ID" prompt="RUN_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="0"/>
+    <contextParameter xmi:id="_ZUZQQM9WEfGFNOxz3mhvwA" comment="" name="PIPELINE_TEXT" prompt="PIPELINE_TEXT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist_eq"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2XtV0M9TEfGFNOxz3mhvwA" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_2XtV0c9TEfGFNOxz3mhvwA" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_2XtV0s9TEfGFNOxz3mhvwA" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_2XtV089TEfGFNOxz3mhvwA" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_2XtV1M9TEfGFNOxz3mhvwA" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_2XtV1c9TEfGFNOxz3mhvwA" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FcaaRG7qUrYpB8+CftcgYyii4rA2KgKzxgutLT7QsciAHjMDzMIMfBUrsA0="/>
+    <contextParameter xmi:id="_2XtV1s9TEfGFNOxz3mhvwA" comment="" name="csv_path" prompt="csv_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talent/Olist/"/>
+    <contextParameter xmi:id="_2XtV189TEfGFNOxz3mhvwA" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter xmi:id="_8RR71s9UEfGFNOxz3mhvwA" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="465"/>
+    <contextParameter xmi:id="_8RR7189UEfGFNOxz3mhvwA" comment="" name="SMTP_USER" prompt="SMTP_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR72M9UEfGFNOxz3mhvwA" comment="" name="SMTP_PASSWORD" prompt="SMTP_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:ZarGdQpxMwhCi2t8Ed0fC/QozlF182Ec9hc7E0w7uVoxLQTEvCRUlHeI9DE="/>
+    <contextParameter xmi:id="_8RR72c9UEfGFNOxz3mhvwA" comment="" name="MAIL_TO" prompt="MAIL_TO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR72s9UEfGFNOxz3mhvwA" comment="" name="LAST_LOAD_TS" prompt="LAST_LOAD_TS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1900-01-01 00:00:00"/>
+    <contextParameter xmi:id="_8RR7289UEfGFNOxz3mhvwA" comment="" name="RUN_ID" prompt="RUN_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="0"/>
+    <contextParameter xmi:id="_ZUZQQc9WEfGFNOxz3mhvwA" comment="" name="PIPELINE_TEXT" prompt="PIPELINE_TEXT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist_eq"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_2XtV2M9TEfGFNOxz3mhvwA" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_2XtV2c9TEfGFNOxz3mhvwA" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_2XtV2s9TEfGFNOxz3mhvwA" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="3306"/>
+    <contextParameter xmi:id="_2XtV289TEfGFNOxz3mhvwA" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_2XtV3M9TEfGFNOxz3mhvwA" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_2XtV3c9TEfGFNOxz3mhvwA" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:FcaaRG7qUrYpB8+CftcgYyii4rA2KgKzxgutLT7QsciAHjMDzMIMfBUrsA0="/>
+    <contextParameter xmi:id="_2XtV3s9TEfGFNOxz3mhvwA" comment="" name="csv_path" prompt="csv_path?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Talent/Olist/"/>
+    <contextParameter xmi:id="_2XtV389TEfGFNOxz3mhvwA" comment="" name="SMTP_HOST" prompt="SMTP_HOST?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="smtp.gmail.com"/>
+    <contextParameter xmi:id="_8RR73M9UEfGFNOxz3mhvwA" comment="" name="SMTP_PORT" prompt="SMTP_PORT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="465"/>
+    <contextParameter xmi:id="_8RR73c9UEfGFNOxz3mhvwA" comment="" name="SMTP_USER" prompt="SMTP_USER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR73s9UEfGFNOxz3mhvwA" comment="" name="SMTP_PASSWORD" prompt="SMTP_PASSWORD?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:PVy9scBd9sfATY4E5ajJjswHB93L0htlYXEa8nGwWiKdrYQbzhEKHHhS6U0="/>
+    <contextParameter xmi:id="_8RR7389UEfGFNOxz3mhvwA" comment="" name="MAIL_TO" prompt="MAIL_TO?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="xboxer091cx@gmail.com"/>
+    <contextParameter xmi:id="_8RR74M9UEfGFNOxz3mhvwA" comment="" name="LAST_LOAD_TS" prompt="LAST_LOAD_TS?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1900-01-01 00:00:00"/>
+    <contextParameter xmi:id="_8RR74c9UEfGFNOxz3mhvwA" comment="" name="RUN_ID" prompt="RUN_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Long" value="0"/>
+    <contextParameter xmi:id="_ZUZQQs9WEfGFNOxz3mhvwA" comment="" name="PIPELINE_TEXT" prompt="PIPELINE_TEXT?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mp01_input_port_olist_eq"/>
+  </talendfile:ContextType>
+</xmi:XMI>

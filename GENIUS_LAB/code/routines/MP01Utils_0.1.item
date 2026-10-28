@@ -1,0 +1,47 @@
+package routines;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class MP01Utils {
+
+    public static boolean isBlank(String s) {
+        return s == null || s.trim().isEmpty();
+    }
+
+    public static Date parseDate(String s) {
+        if (isBlank(s)) return null;
+        SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        f.setLenient(false);
+        try { return f.parse(s.trim()); } catch (ParseException e) { return null; }
+    }
+
+    public static boolean isValidDate(String s, boolean optional) {
+        if (isBlank(s)) return optional;
+        return parseDate(s) != null;
+    }
+
+    public static boolean isValidInt(String s, boolean optional) {
+        if (isBlank(s)) return optional;
+        try { Integer.parseInt(s.trim()); return true; } catch (NumberFormatException e) { return false; }
+    }
+
+    public static Integer toInt(String s) {
+        return isBlank(s) ? null : Integer.valueOf(s.trim());
+    }
+
+    public static boolean isValidAmount(String s) {
+        if (isBlank(s)) return false;
+        try { return new java.math.BigDecimal(s.trim()).signum() >= 0; } catch (NumberFormatException e) { return false; }
+    }
+
+    public static String raw(String... fields) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < fields.length; i++) {
+            if (i > 0) sb.append('|');
+            sb.append(fields[i] == null ? "" : fields[i]);
+        }
+        return sb.toString();
+    }
+}

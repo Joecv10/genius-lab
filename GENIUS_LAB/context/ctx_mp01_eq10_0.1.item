@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_eLc1sM8dEfGg__5q_Bgrtw" confirmationNeeded="false" hide="false" name="Default">
+    <contextParameter xmi:id="_XCQ6kM8fEfGg__5q_Bgrtw" comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DEV"/>
+    <contextParameter xmi:id="_XCRhoM8fEfGg__5q_Bgrtw" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_XCRhoc8fEfGg__5q_Bgrtw" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_XCRhos8fEfGg__5q_Bgrtw" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_XCRho88fEfGg__5q_Bgrtw" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev_genius"/>
+    <contextParameter xmi:id="_XCRhpM8fEfGg__5q_Bgrtw" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:0oyIYORvY9vSVf+85IQSh8LEry7Iwhl9Mv3ZSnx7oc88B3p9UYaBVZX4h38="/>
+    <contextParameter xmi:id="_XCRhpc8fEfGg__5q_Bgrtw" comment="" name="data_dir" prompt="data_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1"/>
+    <contextParameter xmi:id="_XCRhps8fEfGg__5q_Bgrtw" comment="" name="file_customers" prompt="file_customers?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_customers_dataset.csv"/>
+    <contextParameter xmi:id="_XCRhp88fEfGg__5q_Bgrtw" comment="" name="file_products" prompt="file_products?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_products_dataset.csv"/>
+    <contextParameter xmi:id="_XCRhqM8fEfGg__5q_Bgrtw" comment="" name="file_orders" prompt="file_orders?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_orders_dataset.csv"/>
+    <contextParameter xmi:id="_XCRhqc8fEfGg__5q_Bgrtw" comment="" name="file_order_items" prompt="file_order_items?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_items_dataset.csv"/>
+    <contextParameter xmi:id="_XCRhqs8fEfGg__5q_Bgrtw" comment="" name="file_order_payments" prompt="file_order_payments?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_payments_dataset.csv"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YfzPkM8fEfGg__5q_Bgrtw" confirmationNeeded="false" hide="false" name="QA">
+    <contextParameter xmi:id="_YfzPkc8fEfGg__5q_Bgrtw" comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="QA"/>
+    <contextParameter xmi:id="_YfzPks8fEfGg__5q_Bgrtw" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_YfzPk88fEfGg__5q_Bgrtw" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_YfzPlM8fEfGg__5q_Bgrtw" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_YfzPlc8fEfGg__5q_Bgrtw" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="qa_genius"/>
+    <contextParameter xmi:id="_YfzPls8fEfGg__5q_Bgrtw" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:zU1fvNL+oVE/QesqxMvkfna0tiW/XizbfCs9WMxr2KTw2cIm99w65BTxqdg="/>
+    <contextParameter xmi:id="_YfzPl88fEfGg__5q_Bgrtw" comment="" name="data_dir" prompt="data_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1"/>
+    <contextParameter xmi:id="_YfzPmM8fEfGg__5q_Bgrtw" comment="" name="file_customers" prompt="file_customers?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_customers_dataset.csv"/>
+    <contextParameter xmi:id="_YfzPmc8fEfGg__5q_Bgrtw" comment="" name="file_products" prompt="file_products?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_products_dataset.csv"/>
+    <contextParameter xmi:id="_YfzPms8fEfGg__5q_Bgrtw" comment="" name="file_orders" prompt="file_orders?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_orders_dataset.csv"/>
+    <contextParameter xmi:id="_YfzPm88fEfGg__5q_Bgrtw" comment="" name="file_order_items" prompt="file_order_items?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_items_dataset.csv"/>
+    <contextParameter xmi:id="_YfzPnM8fEfGg__5q_Bgrtw" comment="" name="file_order_payments" prompt="file_order_payments?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_payments_dataset.csv"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_YfzPnc8fEfGg__5q_Bgrtw" confirmationNeeded="false" hide="false" name="PROD">
+    <contextParameter xmi:id="_YfzPns8fEfGg__5q_Bgrtw" comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="PROD"/>
+    <contextParameter xmi:id="_YfzPn88fEfGg__5q_Bgrtw" comment="" name="db_host" prompt="db_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="209.50.245.36"/>
+    <contextParameter xmi:id="_YfzPoM8fEfGg__5q_Bgrtw" comment="" name="db_port" prompt="db_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="3306"/>
+    <contextParameter xmi:id="_YfzPoc8fEfGg__5q_Bgrtw" comment="" name="db_name" prompt="db_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="DWHDEV"/>
+    <contextParameter xmi:id="_YfzPos8fEfGg__5q_Bgrtw" comment="" name="db_user" prompt="db_user?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod_genius"/>
+    <contextParameter xmi:id="_YfzPo88fEfGg__5q_Bgrtw" comment="" name="db_password" prompt="db_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value="enc:system.encryption.key.v1:AB4UFn9jzlp3lCsQBYEj6ThoANSVuBBFSTrUPgYzsmxlL7/6+XoTYmlyzlc="/>
+    <contextParameter xmi:id="_YfzPpM8fEfGg__5q_Bgrtw" comment="" name="data_dir" prompt="data_dir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/Users/joeconcha/Documents/Genious_Lab/talend/Fuentes/ejercicio_1"/>
+    <contextParameter xmi:id="_YfzPpc8fEfGg__5q_Bgrtw" comment="" name="file_customers" prompt="file_customers?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_customers_dataset.csv"/>
+    <contextParameter xmi:id="_YfzPps8fEfGg__5q_Bgrtw" comment="" name="file_products" prompt="file_products?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_products_dataset.csv"/>
+    <contextParameter xmi:id="_Yfz2oM8fEfGg__5q_Bgrtw" comment="" name="file_orders" prompt="file_orders?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_orders_dataset.csv"/>
+    <contextParameter xmi:id="_Yfz2oc8fEfGg__5q_Bgrtw" comment="" name="file_order_items" prompt="file_order_items?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_items_dataset.csv"/>
+    <contextParameter xmi:id="_Yfz2os8fEfGg__5q_Bgrtw" comment="" name="file_order_payments" prompt="file_order_payments?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="olist_order_payments_dataset.csv"/>
+  </talendfile:ContextType>
+</xmi:XMI>
