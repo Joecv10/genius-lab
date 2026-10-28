@@ -29,3 +29,23 @@ FROM DWHDEV.mart_fact_orders_joe_concha;
 SELECT 100.0 * SUM(is_late) / COUNT(*) AS pct_late_delivered
 FROM DWHDEV.mart_fact_orders_joe_concha
 WHERE order_status = 'delivered';
+
+
+
+
+
+
+SELECT COUNT(*)                                         AS total_pedidos,
+       COUNT(is_late)                                   AS entregados,
+       SUM(is_late)                                     AS tardios,
+       ROUND(100.0 * SUM(is_late) / COUNT(is_late), 2)  AS pct_late_entregados,
+       ROUND(100.0 * SUM(is_late) / COUNT(*), 2)        AS pct_late_total
+FROM DWHDEV.mart_fact_orders_joe_concha;
+
+
+
+
+
+
+
+
